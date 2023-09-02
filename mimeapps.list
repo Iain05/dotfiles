@@ -1,0 +1,10 @@
+[Added Associations]
+text/x-csrc=code-oss.desktop;
+application/x-shellscript=code-oss.desktop;kitty-open.desktop;
+application/x-zerosize=code-oss.desktop;
+image/png=sxiv.desktop;
+application/json=code-oss.desktop;
+
+[Default Applications]
+application/x-zerosize=code-oss.desktop
+x-scheme-handler/jetbrains=jetbrains-toolbox.desktop
