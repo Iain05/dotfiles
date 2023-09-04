@@ -1,0 +1,2 @@
+2023-09-04 10:53:05.458 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/iain/.config/hypr/hyprland.conf","scheme":"file"},"type":1,"exists":true,"options":{}}],"filesToDiff":[],"filesToMerge":[]}
+2023-09-04 10:53:08.665 [info] [perf] Render performance baseline is 24ms

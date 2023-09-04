@@ -11,7 +11,7 @@ configuration {
 @import "colors.rasi"
 
 /* Line Responsible For Button Layouts */
-/* BUTTON = FALSE */
+/* BUTTON = TRUE */
 
 window {
     transparency:                   "real";
@@ -20,7 +20,7 @@ window {
     border:                         2px;
     border-color:                   @BDR;
     border-radius:                  10px;
-    width:                          300px;
+    width:                          450px;
     anchor:                         center;
     x-offset:                       0;
     y-offset:                       0;
@@ -81,29 +81,31 @@ case-indicator {
 }
 
 
+
 listview {
     background-color:               @BG;
     columns:                        1;
-    lines:							5;
-    spacing:                        4px;
+    lines:                          5;
+    spacing:                        10px;
     cycle:                          true;
     dynamic:                        true;
-    layout:                         vertical;
+    layout:                         horizontal;
 }
 
 mainbox {
     background-color:               @BG;
     children:                       [ inputbar, listview ];
-    spacing:                       	15px;
-    padding:                        15px;
+    spacing:                       	10px;
+    padding:                        10px;
 }
 
 element {
     background-color:               @BG;
     text-color:                     @FG;
     orientation:                    horizontal;
+    border: 2px;
     border-radius:                  10px;
-    padding:                        6px 6px 6px 6px;
+    padding:                        23.5px 25px 23.5px 25px;
 }
 
 element-icon {
@@ -116,10 +118,12 @@ element-icon {
 element-text {
     background-color: 				inherit;
     text-color:       				inherit;
+    font:							"feather 15";
     expand:                         true;
     horizontal-align:               0;
     vertical-align:                 0.5;
-    margin:                         2px 0px 2px 6px;
+    margin:                         0px;
+padding: 5px;
 }
 
 element selected {

@@ -6,7 +6,7 @@
             "file:///mnt/windows/TrogLib": "__default__profile__"
         },
         "emptyWindows": {
-            "1693623370502": "__default__profile__"
+            "1693855622488": "__default__profile__"
         }
     },
     "profileAssociationsMigration": true,
@@ -16,19 +16,19 @@
         "folders": [],
         "emptyWindows": [
             {
-                "backupFolder": "1693623370502"
+                "backupFolder": "1693855622488"
             }
         ]
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/iain/.config/Code - OSS/Backups/1693623370502",
+            "backupPath": "/home/iain/.config/Code - OSS/Backups/1693855622488",
             "uiState": {
                 "mode": 1,
                 "x": 0,
                 "y": 0,
                 "width": 852,
-                "height": 507
+                "height": 1025
             }
         },
         "openedWindows": []
@@ -78,92 +78,84 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
-                                    "id": "openRecentFile",
+                                    "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/iain/.config/hypr/hyprland.conf",
-                                        "path": "/home/iain/.config/hypr/hyprland.conf",
+                                        "external": "file:///mnt/windows/TrogLib",
+                                        "path": "/mnt/windows/TrogLib",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/.config/hypr/hyprland.conf"
+                                    "label": "/mnt/windows/TrogLib"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///mnt/windows/TrogLib/.git",
+                                        "path": "/mnt/windows/TrogLib/.git",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/mnt/windows/TrogLib/.git"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/iain/.config/kitty/kitty.conf",
-                                        "path": "/home/iain/.config/kitty/kitty.conf",
+                                        "external": "file:///home/iain/.config/Code%20-%20OSS/User/settings.json",
+                                        "path": "/home/iain/.config/Code - OSS/User/settings.json",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/.config/kitty/kitty.conf"
+                                    "label": "~/.config/Code - OSS/User/settings.json"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///etc/environment",
-                                        "path": "/etc/environment",
+                                        "external": "file:///home/iain/.config/waybar/scripts/mediaplayer.py",
+                                        "path": "/home/iain/.config/waybar/scripts/mediaplayer.py",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "/etc/environment"
+                                    "label": "~/.config/waybar/scripts/mediaplayer.py"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/iain/.config/gtk-3.0/settings.ini",
-                                        "path": "/home/iain/.config/gtk-3.0/settings.ini",
+                                        "external": "file:///home/iain/.config/connect_headphones_old.sh",
+                                        "path": "/home/iain/.config/connect_headphones_old.sh",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/.config/gtk-3.0/settings.ini"
+                                    "label": "~/.config/connect_headphones_old.sh"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///etc/default/grub",
-                                        "path": "/etc/default/grub",
+                                        "external": "file:///home/iain/.config/toggle_headphones.sh",
+                                        "path": "/home/iain/.config/toggle_headphones.sh",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "/etc/default/grub"
+                                    "label": "~/.config/toggle_headphones.sh"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///etc/systemd/sleep.conf",
-                                        "path": "/etc/systemd/sleep.conf",
+                                        "external": "file:///home/iain/.config/connect_headphones.sh",
+                                        "path": "/home/iain/.config/connect_headphones.sh",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "/etc/systemd/sleep.conf"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///etc/systemd/logind.conf",
-                                        "path": "/etc/systemd/logind.conf",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "/etc/systemd/logind.conf"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/iain/.config/rofi/powermenu.rasi",
-                                        "path": "/home/iain/.config/rofi/powermenu.rasi",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/.config/rofi/powermenu.rasi"
+                                    "label": "~/.config/connect_headphones.sh"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -180,12 +172,45 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/iain/.gtkrc-2.0",
-                                        "path": "/home/iain/.gtkrc-2.0",
+                                        "external": "file:///home/iain/.config/connect_headphones",
+                                        "path": "/home/iain/.config/connect_headphones",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/.gtkrc-2.0"
+                                    "label": "~/.config/connect_headphones"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///etc/bluetooth/main.conf",
+                                        "path": "/etc/bluetooth/main.conf",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/etc/bluetooth/main.conf"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///usr/lib/systemd/system/bluetooth.service",
+                                        "path": "/usr/lib/systemd/system/bluetooth.service",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/usr/lib/systemd/system/bluetooth.service"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/iain/.config/waybar/style.css",
+                                        "path": "/home/iain/.config/waybar/style.css",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/waybar/style.css"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -706,6 +731,13 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
+                                    "id": "workbench.action.splitEditorInGroup",
+                                    "label": "Split in &&Group"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
                                     "id": "workbench.action.editorLayoutSingle",
                                     "label": "&&Single"
                                 },
@@ -794,8 +826,7 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap",
-                        "enabled": false
+                        "label": "&&Word Wrap"
                     },
                     {
                         "id": "editor.action.toggleStickyScroll",
@@ -1463,6 +1494,11 @@
                 "label": "Ctrl+K Ctrl+\\",
                 "isNative": false,
                 "userSettingsLabel": "ctrl+k ctrl+\\"
+            },
+            "workbench.action.splitEditorInGroup": {
+                "label": "Ctrl+K Ctrl+Shift+\\",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k ctrl+shift+\\"
             },
             "workbench.action.toggleEditorGroupLayout": {
                 "label": "Shift+Alt+0",

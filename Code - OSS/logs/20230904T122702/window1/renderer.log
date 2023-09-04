@@ -1,0 +1,2 @@
+2023-09-04 12:27:03.348 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/iain/.config/waybar/config","scheme":"file"},"type":1,"exists":true,"options":{}}],"filesToDiff":[],"filesToMerge":[]}
+2023-09-04 12:27:07.127 [info] [perf] Render performance baseline is 39ms

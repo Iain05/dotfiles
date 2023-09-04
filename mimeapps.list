@@ -1,10 +1,14 @@
 [Added Associations]
 text/x-csrc=code-oss.desktop;
-application/x-shellscript=code-oss.desktop;kitty-open.desktop;
+application/x-shellscript=kitty-open.desktop;code-oss.desktop;
 application/x-zerosize=code-oss.desktop;
 image/png=sxiv.desktop;
 application/json=code-oss.desktop;
+application/pdf=org.pwmt.zathura-pdf-mupdf.desktop;
+text/x-tex=code-oss.desktop;
+inode/symlink=code-oss.desktop;
 
 [Default Applications]
 application/x-zerosize=code-oss.desktop
 x-scheme-handler/jetbrains=jetbrains-toolbox.desktop
+inode/symlink=code-oss.desktop

@@ -1,0 +1,8 @@
+Using Wayland-EGL
+EGL not available
+
+** (process:5980): WARNING **: 20:32:05.436: Failed to load shared library 'libnotify.so.4' referenced by the typelib: /usr/lib/libgdk_pixbuf-2.0.so.0: undefined symbol: g_task_set_name
+Fontconfig warning: "/usr/share/fontconfig/conf.avail/05-reset-dirs-sample.conf", line 6: unknown element "reset-dirs"
+WebEngineContext used before QtWebEngine::initialize() or OpenGL context creation failed.
+Using the 'xdg-shell' shell integration
+qt.qpa.wayland: Wayland does not support QWindow::requestActivate()
